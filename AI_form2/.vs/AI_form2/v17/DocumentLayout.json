@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
@@ -54,93 +62,124 @@
               "RelativeToolTip": "AI_form2\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T06:58:13.951Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form2.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs [Progettazione]",
               "RelativeToolTip": "AI_form2\\Form2.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:06:17.184Z",
-              "IsPinned": true
+              "WhenOpened": "2025-05-21T21:35:14.996Z",
+              "IsPinned": true,
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs [Progettazione]",
+              "RelativeToolTip": "AI_form2\\Form3.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:06:21.542Z",
+              "IsPinned": true,
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.Designer.cs",
+              "RelativeToolTip": "AI_form2\\Form2.Designer.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAtwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:31:40.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.Designer.cs",
+              "RelativeToolTip": "AI_form2\\Form1.Designer.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAtwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:34:07.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
-              "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
-              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs [Design]",
-              "RelativeToolTip": "AI_form2\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:06:21.542Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
               "RelativeToolTip": "AI_form2\\Form3.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:35:28.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
               "RelativeToolTip": "AI_form2\\Form2.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:34:07.371Z"
+              "WhenOpened": "2025-05-21T07:34:07.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CRicetta.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
               "RelativeDocumentMoniker": "AI_form2\\CRicetta.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
               "RelativeToolTip": "AI_form2\\CRicetta.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAQwDQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:27:49.279Z"
+              "WhenOpened": "2025-05-21T07:27:49.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "GestoreRicette.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
               "RelativeDocumentMoniker": "AI_form2\\GestoreRicette.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
               "RelativeToolTip": "AI_form2\\GestoreRicette.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAowKoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAkwKoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:26:40.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
               "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeToolTip": "AI_form2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:09:51.903Z"
+              "WhenOpened": "2025-05-21T07:09:51.903Z",
+              "EditorCaption": ""
             }
           ]
         }

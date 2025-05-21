@@ -12,24 +12,46 @@ namespace AI_form2
 {
     public partial class Form2 : Form
     {
-        
+
         List<(CRicetta ricetta, int score, bool suggerita)> suggerimenti;
         public Form2()
         {
             InitializeComponent();
+            this.Shown += Form2_Shown;
         }
 
-        
+        private void Form2_Shown(object sender, EventArgs e)
+        {
+            this.ActiveControl = null; // Nessun controllo selezionato all’avvio
+        }
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private async void pictureBox2_ClickAsync(object sender, EventArgs e)
+        {
+
             string input = textBox1.Text.Trim();
             if (string.IsNullOrWhiteSpace(input)) return;
 
-            var lista = new List<string>();
-            foreach (var part in input.Split(','))
-                lista.Add(part.Trim().ToLower());
+            pictureBoxSpinner.Visible = true;
 
-            suggerimenti = GestoreRicette.TrovaRicette(lista);
+            var lista = input.Split(',')
+                             .Select(p => p.Trim().ToLower())
+                             .Where(p => !string.IsNullOrWhiteSpace(p))
+                             .ToList();
+
+            // Trova le ricette in un thread secondario
+            suggerimenti = await Task.Run(() => GestoreRicette.TrovaRicette(lista));
 
             listBox1.Items.Clear();
             foreach (var (r, s, suggerita) in suggerimenti)
@@ -38,9 +60,16 @@ namespace AI_form2
                 if (suggerita) messaggio += " (potrebbe piacerti)";
                 listBox1.Items.Add(messaggio);
             }
+
+            pictureBoxSpinner.Visible = false;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             int sel = listBox1.SelectedIndex;
             if (sel == -1) return;

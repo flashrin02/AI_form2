@@ -30,14 +30,12 @@ namespace AI_form2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GestoreRicette.RegistraFeedback(ricetta, true); // Pass the CRicetta object instead of its ID
-            MessageBox.Show("Feedback registrato: Ti è piaciuta la ricetta!");
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            GestoreRicette.RegistraFeedback(ricetta, false); // Pass the CRicetta object instead of its ID
-            MessageBox.Show("Feedback registrato: Non ti è piaciuta la ricetta.");
+
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -54,6 +52,23 @@ namespace AI_form2
             {
                 MessageBox.Show("Impossibile aprire il link.");
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            GestoreRicette.RegistraFeedback(ricetta, true); // Pass the CRicetta object instead of its ID
+            MessageBox.Show("Feedback registrato: Ti è piaciuta la ricetta!");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            GestoreRicette.RegistraFeedback(ricetta, false); // Pass the CRicetta object instead of its ID
+            MessageBox.Show("Feedback registrato: Non ti è piaciuta la ricetta.");
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
