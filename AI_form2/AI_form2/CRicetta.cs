@@ -9,8 +9,6 @@ namespace AI_form2
 {
     public class CRicetta
     {
-        private List<string> ner1;
-
         public int ID { get; set; }
         public string title { get; set; }
         public List<string> ingredients { get; set; }
@@ -36,10 +34,11 @@ namespace AI_form2
 
     public class RicettaInput
     {
+        public int ID { get; set; }
         public float NumeroIngredienti { get; set; }
         public float NumeroPassaggi { get; set; }
 
-        //Attribuzione che serve a dichiarare la dimensione del vettore (feature vettoriale)
+        //Attributo speciale che indica che si tratta di un array di features
         [VectorType(50)]
         public float[] IngredientiVector { get; set; }
 
@@ -47,8 +46,9 @@ namespace AI_form2
 
         public RicettaInput() { }
 
-        public RicettaInput(float numeroIngredienti, float numeroPassaggi, float[] ingredientiVector, bool label)
+        public RicettaInput(int id, float numeroIngredienti, float numeroPassaggi, float[] ingredientiVector, bool label)
         {
+            ID = id;
             NumeroIngredienti = numeroIngredienti;
             NumeroPassaggi = numeroPassaggi;
             IngredientiVector = ingredientiVector;
@@ -58,11 +58,14 @@ namespace AI_form2
 
     public class RicettaPrediction
     {
-        //Per mappare la colonna di output
+        //Per mappare le proprietà della classe con i nomi delle colonne nel modello ML
         [ColumnName("PredictedLabel")]
-        public bool predictedLabel;
+        public bool predictedLabel { get; set; }
 
-        public float probability;
-        public float score;
+        [ColumnName("Probability")]
+        public float probability { get; set; }
+
+        [ColumnName("Score")]
+        public float score { get; set; }
     }
 }

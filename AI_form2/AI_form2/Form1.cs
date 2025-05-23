@@ -25,7 +25,18 @@ namespace AI_form2
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            var risultati = GestoreRicette.TestaModelloConTrueFalse();
 
+            if (risultati.Count == 0)
+            {
+                MessageBox.Show("Nessun risultato disponibile.");
+                return;
+            }
+
+            var messaggio = string.Join(Environment.NewLine, risultati);
+            MessageBox.Show(messaggio, "Test del modello");
+            string risultato = GestoreRicette.ValutaModello();
+            MessageBox.Show(risultato, "Valutazione del modello");
         }
     }
 }
