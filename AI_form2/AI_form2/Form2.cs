@@ -34,7 +34,7 @@ namespace AI_form2
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private async void pictureBox2_ClickAsync(object sender, EventArgs e)
@@ -77,6 +77,11 @@ namespace AI_form2
             var ricetta = suggerimenti[sel].ricetta;
             Form3 f3 = new Form3(ricetta);
             f3.Show();
+        }
+
+        private void pictureBoxSpinner_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

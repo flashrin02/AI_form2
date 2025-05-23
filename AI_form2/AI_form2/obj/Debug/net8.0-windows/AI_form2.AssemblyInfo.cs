@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI_form2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a785b9ccff2b0c6d236d655ca6a84f37f0603ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bb496d6799b3f52f994e48582f43af2e576e582")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI_form2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI_form2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

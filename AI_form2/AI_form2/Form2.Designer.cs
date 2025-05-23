@@ -115,6 +115,7 @@
             pictureBoxSpinner.TabIndex = 19;
             pictureBoxSpinner.TabStop = false;
             pictureBoxSpinner.Visible = false;
+            pictureBoxSpinner.Click += pictureBoxSpinner_Click;
             // 
             // progressBar1
             // 

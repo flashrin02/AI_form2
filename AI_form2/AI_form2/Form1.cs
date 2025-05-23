@@ -9,7 +9,7 @@ namespace AI_form2
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -21,6 +21,11 @@ namespace AI_form2
         {
             Form2 f2 = new Form2();
             f2.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -22,10 +22,31 @@ namespace AI_form2
 
         private void MostraDettagli()
         {
+            
+
             label1.Text = ricetta.title;
             label2.Text = string.Join(", ", ricetta.ingredients);
             label3.Text = string.Join(", ", ricetta.directions);
             label4.Text = ricetta.link;
+
+            label1.Dock = DockStyle.Top;
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Font = new Font("Segoe UI", 16, FontStyle.Bold);
+
+            label2.Dock = DockStyle.Top;
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+
+            label3.Dock = DockStyle.Top;
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+
+            label4.Dock = DockStyle.Top;
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+
+            label1.Text = ricetta.title;
+            label2.Text = string.Join(", ", ricetta.ingredients);
+            label3.Text = string.Join(", ", ricetta.directions);
+            label4.Text = ricetta.link;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -54,16 +75,31 @@ namespace AI_form2
             }
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private async void pictureBox4_Click(object sender, EventArgs e)
         {
-            GestoreRicette.RegistraFeedback(ricetta, true); // Pass the CRicetta object instead of its ID
+            pictureBox4.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBoxSpinner.Visible = true;
+
+            await Task.Run(() => GestoreRicette.RegistraFeedback(ricetta, true));
+
+            pictureBoxSpinner.Visible = false;
             MessageBox.Show("Feedback registrato: Ti è piaciuta la ricetta!");
+            this.Close();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private async void pictureBox1_Click(object sender, EventArgs e)
         {
-            GestoreRicette.RegistraFeedback(ricetta, false); // Pass the CRicetta object instead of its ID
+
+            pictureBox4.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBoxSpinner.Visible = true;
+
+            await Task.Run(() => GestoreRicette.RegistraFeedback(ricetta, false));
+
+            pictureBoxSpinner.Visible = false;
             MessageBox.Show("Feedback registrato: Non ti è piaciuta la ricetta.");
+            this.Close();
         }
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)

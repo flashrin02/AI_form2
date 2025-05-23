@@ -36,8 +36,8 @@
             label5 = new Label();
             pictureBox4 = new PictureBox();
             pictureBox1 = new PictureBox();
-            progressBar1 = new ProgressBar();
             pictureBoxSpinner = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxSpinner).BeginInit();
@@ -116,25 +116,31 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(571, 394);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(125, 29);
-            progressBar1.Style = ProgressBarStyle.Marquee;
-            progressBar1.TabIndex = 17;
-            progressBar1.Visible = false;
-            // 
             // pictureBoxSpinner
             // 
             pictureBoxSpinner.Image = (Image)resources.GetObject("pictureBoxSpinner.Image");
-            pictureBoxSpinner.Location = new Point(702, 350);
+            pictureBoxSpinner.Location = new Point(365, 350);
             pictureBoxSpinner.Name = "pictureBoxSpinner";
-            pictureBoxSpinner.Size = new Size(77, 73);
+            pictureBoxSpinner.Size = new Size(77, 74);
             pictureBoxSpinner.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxSpinner.TabIndex = 18;
             pictureBoxSpinner.TabStop = false;
             pictureBoxSpinner.Visible = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Location = new Point(246, 137);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 4;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(250, 125);
+            tableLayoutPanel1.TabIndex = 19;
             // 
             // Form3
             // 
@@ -142,8 +148,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MistyRose;
             ClientSize = new Size(800, 450);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBoxSpinner);
-            Controls.Add(progressBar1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox4);
@@ -168,7 +174,7 @@
         private Label label5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox1;
-        private ProgressBar progressBar1;
         private PictureBox pictureBoxSpinner;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }
