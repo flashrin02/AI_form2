@@ -344,9 +344,14 @@ namespace AI_form2
         {
             RicettaInput input = CreaInputDaRicetta(ricetta);
             input.Label = piace;
+
+            //Evita duplicati: rimuove eventuali input identici già presenti
+            TrainingSet.RemoveAll(x => x.ID == input.ID);
+
             TrainingSet.Add(input);
             AddestraModello();
             SalvaPreferenze();
+
         }
 
         public static string ValutaModello()
