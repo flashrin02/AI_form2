@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+>>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +49,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
     },
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +58,8 @@
     {
       "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +73,11 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
@@ -59,7 +90,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Form2.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
@@ -72,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Form3.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
@@ -121,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CRicetta.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
               "RelativeDocumentMoniker": "AI_form2\\CRicetta.cs",
@@ -133,7 +168,48 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 0,
+              "Title": "GestoreRicette.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
+              "RelativeDocumentMoniker": "AI_form2\\GestoreRicette.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
+              "RelativeToolTip": "AI_form2\\GestoreRicette.cs",
+              "ViewState": "AgIAAJYBAAAAAAAAAAAUwKMBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:26:40.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
+              "RelativeToolTip": "AI_form2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:09:51.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
+              "RelativeToolTip": "AI_form2\\Form2.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:34:07.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
