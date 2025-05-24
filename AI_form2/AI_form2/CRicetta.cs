@@ -16,7 +16,6 @@ namespace AI_form2
         public string link { get; set; }
         public string source { get; set; }
         public List<string> ner { get; set; }
-        public bool liked { get; set; }
 
         public CRicetta(int ID, string title, List<string> ingredients, List<string> directions, string link, string source, List<string> ner)
         {
@@ -27,7 +26,6 @@ namespace AI_form2
             this.link = link;
             this.source = source;
             this.ner = ner;
-            liked = false;
         }
 
     }

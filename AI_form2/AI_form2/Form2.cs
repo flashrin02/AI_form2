@@ -13,7 +13,7 @@ namespace AI_form2
     public partial class Form2 : Form
     {
 
-        List<(CRicetta ricetta, int score, bool suggerita, float probabilita)> suggerimenti;
+        List<(CRicetta ricetta, int score, bool suggerita)> suggerimenti;
         public Form2()
         {
             InitializeComponent();
@@ -55,10 +55,9 @@ namespace AI_form2
             suggerimenti = await Task.Run(() => GestoreRicette.TrovaRicette(lista));
 
             listBox1.Items.Clear();
-            foreach (var (r, s, suggerita, probabilita) in suggerimenti)
+            foreach (var (r, s, suggerita) in suggerimenti)
             {
                 string messaggio = $"{r.title} (ingredienti in comune: {s})";
-                messaggio += $" - probabilità: {probabilita}";
                 if (suggerita) messaggio += " (potrebbe piacerti)";
                 listBox1.Items.Add(messaggio);
             }

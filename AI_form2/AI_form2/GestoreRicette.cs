@@ -209,19 +209,18 @@ namespace AI_form2
             return new RicettaInput(r.ID, r.ingredients.Count, r.directions.Count, ingredientiVector, false);
         }
 
-        public static List<(CRicetta ricetta, int score, bool suggerita, float probabilita)> TrovaRicette(List<string> ingredienti)
+        public static List<(CRicetta ricetta, int score, bool suggerita)> TrovaRicette(List<string> ingredienti)
         {
             var ricette = RicetteConsigliate(ingredienti);
 
-            List<(CRicetta, int, bool, float)> result = new();
+            List<(CRicetta, int, bool)> result = new();
             foreach (var r in ricette)
             {
                 RicettaInput input = CreaInputDaRicetta(r);
                 RicettaPrediction prediction = PredictionEngine.Predict(input);
                 int score = ContaIngredientiComuni(r.ner, ingredienti);
                 bool suggerita = RicettaSuggerita(r);
-                float probabilita = prediction.probability;
-                result.Add((r, score, suggerita, probabilita));
+                result.Add((r, score, suggerita));
             }
             //Ordinamento
             for (int i = 0; i < result.Count - 1; i++)
@@ -356,67 +355,50 @@ namespace AI_form2
 
         public static string ValutaModello()
         {
-            if (TestSet.Count == 0 || Modello == null)
+            if (TrainingSet.Count == 0 || Modello == null)
             {
-                return "Il test set è vuoto o il modello non è stato addestrato";
+                return "Il training set è vuoto o il modello non è stato addestrato";
             }
 
-            IDataView dataView = mlContext.Data.LoadFromEnumerable(TestSet);
-            //Applica il modello addestrato ai dati del test set, ottenendone le previsioni per ogni ricetta 
-            var predictions = Modello.Transform(dataView);
-            //Calcola le metriche di performance
-            var metrics = mlContext.BinaryClassification.Evaluate(predictions, "Label");
+            //Rimuovi l'esempio fittizio se presente
+            var trainDataReali = TrainingSet.Where(t => t.ID >= -1).ToList();
 
-            return $"Accuratezza: {metrics.Accuracy:P2}\n" +
-                   $"Precisione: {metrics.PositivePrecision:P2}\n" +
-                   $"Recall: {metrics.PositiveRecall:P2}\n" +
-                   $"F1 Score: {metrics.F1Score:P2}\n";
-        }
-
-        public static List<string> TestaModelloConTrueFalse()
-        {
-            var risultati = new List<string>();
-
-            if (Modello == null)
+            if (trainDataReali.Count == 0)
             {
-                risultati.Add("Il modello non è stato addestrato");
-                return risultati;
-            }
-            if (TestSet.Count == 0)
-            {
-                risultati.Add("Il test set è vuoto");
-                return risultati;
+                return "Nessun feedback reale disponibile per la valutazione";
             }
 
-            IDataView testDataView = mlContext.Data.LoadFromEnumerable(TestSet);
-            //Applica il modello addestrato ai dati del test set, ottenendone le previsioni per ogni ricetta 
-            var predictions = Modello.Transform(testDataView);
-            //Estrae i risultati in una lista
-            var predictedResults = mlContext.Data.CreateEnumerable<RicettaPrediction>(predictions, reuseRowObject: false).ToList();
+            //Verifica distribuzione delle label
+            int labelPositive = trainDataReali.Count(t => t.Label == true);
+            int labelNegative = trainDataReali.Count(t => t.Label == false);
 
-            for (int i = 0; i < predictedResults.Count; i++)
+            string info = $"Valutazione su prestazioni:\n";
+
+            if (labelPositive == 0 || labelNegative == 0)
             {
-                var result = predictedResults[i];
-                if (!result.predictedLabel)
-                    continue; //Salta se non è previsto che piaccia
-
-                var input = TestSet[i];
-
-                //Cerca nella lista delle ricette, la ricetta corrispondente
-                CRicetta ricettaAssociata = null;
-                foreach (var r in Ricette)
-                {
-                    if (r.ID == input.ID)  //Confronta gli ID
-                    {
-                        ricettaAssociata = r;
-                        break;
-                    }
-                }
-
-                string nomeRicetta = ricettaAssociata != null ? ricettaAssociata.title : $"Ricetta {i + 1}";
-                risultati.Add(ricettaAssociata.title);
+                return info + "Impossibile calcolare metriche complete: servono feedback sia positivi che negativi";
             }
-            return risultati;
+
+            try
+            {
+                IDataView dataView = mlContext.Data.LoadFromEnumerable(trainDataReali);
+                var predictions = Modello.Transform(dataView);
+                var metrics = mlContext.BinaryClassification.Evaluate(predictions, "Label");
+
+                string risultato = info;
+                risultato += $"Accuratezza: {metrics.Accuracy:P2}\n";
+                risultato += $"AUC: {metrics.AreaUnderRocCurve:P2}\n";
+                risultato += $"Precisione: {metrics.PositivePrecision:P2}\n";
+                risultato += $"Recall: {metrics.PositiveRecall:P2}\n";
+                risultato += $"F1 Score: {metrics.F1Score:P2}\n";
+
+
+                return risultato;
+            }
+            catch (Exception ex)
+            {
+                return info + $"Errore nella valutazione: {ex.Message}";
+            }
         }
 
         public static string TestaModelloConDebug()
@@ -442,7 +424,9 @@ namespace AI_form2
             debug += $"Feedback negativi: {feedbackNegativi}\n\n";
 
             IDataView testDataView = mlContext.Data.LoadFromEnumerable(TestSet.Take(10)); //Prende solo le prime 10 per test
+            //Applica il modello addestrato ai dati del test set, ottenendone le previsioni per ogni ricetta 
             var predictions = Modello.Transform(testDataView);
+            //Estrae i risultati in una lista
             var predictedResults = mlContext.Data.CreateEnumerable<RicettaPrediction>(predictions, reuseRowObject: false).ToList();
 
             debug += "Previsioni su prime 10 ricette del test set:\n";
