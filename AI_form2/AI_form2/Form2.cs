@@ -18,6 +18,7 @@ namespace AI_form2
         {
             InitializeComponent();
             this.Shown += Form2_Shown;
+            this.Width = 440; // larghezza iniziale
         }
 
         private void Form2_Shown(object sender, EventArgs e)
@@ -62,6 +63,15 @@ namespace AI_form2
             }
 
             pictureBoxSpinner.Visible = false;
+            if(listBox1.Items.Count > 0)
+            {
+               this.Width = 900;
+            }
+            else
+            {
+                MessageBox.Show("Nessuna ricetta trovata.");
+            }
+            
         }
 
         private void Form2_Load(object sender, EventArgs e)

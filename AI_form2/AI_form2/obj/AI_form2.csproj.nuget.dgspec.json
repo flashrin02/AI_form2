@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\OneDrive\\文档\\GitHub\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj": {}
+    "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\OneDrive\\文档\\GitHub\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj": {
+    "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\OneDrive\\文档\\GitHub\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj",
         "projectName": "AI_form2",
-        "projectPath": "C:\\Users\\Utente\\OneDrive\\文档\\GitHub\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj",
-        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\OneDrive\\文档\\GitHub\\AI_form2\\AI_form2\\AI_form2\\obj\\",
+        "projectPath": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\AI_form2.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

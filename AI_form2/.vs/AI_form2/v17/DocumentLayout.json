@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\",
+  "WorkspaceRootPath": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\gestorericette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\utente\\onedrive\\\u6587\u6863\\github\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|c:\\users\\aless\\desktop\\ai_form2\\ai_form2\\ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\cricetta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{326D272B-2F11-4E54-BCEF-B62E8F5DBB86}|AI_form2\\AI_form2.csproj|solutionrelative:ai_form2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,15 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form1.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs [Progettazione]",
               "RelativeToolTip": "AI_form2\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T06:58:13.951Z",
@@ -59,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form2.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form2.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs [Progettazione]",
               "RelativeToolTip": "AI_form2\\Form2.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T21:35:14.996Z",
@@ -74,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Form3.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form3.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs [Progettazione]",
               "RelativeToolTip": "AI_form2\\Form3.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:06:21.542Z",
@@ -85,39 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
-              "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
-              "RelativeToolTip": "AI_form2\\Form3.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:35:28.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
-              "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
-              "RelativeToolTip": "AI_form2\\Form2.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAASwDUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:34:07.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CRicetta.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
               "RelativeDocumentMoniker": "AI_form2\\CRicetta.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\CRicetta.cs",
               "RelativeToolTip": "AI_form2\\CRicetta.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAEwEEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:27:49.279Z",
               "EditorCaption": ""
@@ -126,26 +100,52 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GestoreRicette.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
               "RelativeDocumentMoniker": "AI_form2\\GestoreRicette.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\GestoreRicette.cs",
               "RelativeToolTip": "AI_form2\\GestoreRicette.cs",
-              "ViewState": "AgIAABUBAAAAAAAAAAASwCEBAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADkBAAAAAAAAAAAjwE4BAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:26:40.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeDocumentMoniker": "AI_form2\\Form1.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\\u6587\u6863\\GitHub\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form1.cs",
               "RelativeToolTip": "AI_form2\\Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T07:09:51.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form2.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form2.cs",
+              "RelativeToolTip": "AI_form2\\Form2.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:34:07.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
+              "RelativeDocumentMoniker": "AI_form2\\Form3.cs",
+              "ToolTip": "C:\\Users\\aless\\Desktop\\AI_form2\\AI_form2\\AI_form2\\Form3.cs",
+              "RelativeToolTip": "AI_form2\\Form3.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwGgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:35:28.41Z",
               "EditorCaption": ""
             }
           ]

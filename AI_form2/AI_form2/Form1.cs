@@ -25,16 +25,37 @@ namespace AI_form2
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            var risultati = GestoreRicette.TestaModelloConTrueFalse();
+            //var risultati = GestoreRicette.TestaModelloConTrueFalse();
 
+            //if (risultati.Count == 0)
+            //{
+            //    MessageBox.Show("Nessun risultato disponibile.");
+            //    return;
+            //}
+
+            //var messaggio = string.Join(Environment.NewLine, risultati);
+            //MessageBox.Show(messaggio, "Test del modello");
+            //string risultato = GestoreRicette.ValutaModello();
+            //MessageBox.Show(risultato, "Valutazione del modello");
+
+            //alessio per cercare di sistemare
+
+            // Prima mostra le informazioni di debug
+            string debugInfo = GestoreRicette.TestaModelloConDebug();
+            MessageBox.Show(debugInfo, "Debug del modello");
+
+            // Poi testa il modello normalmente
+            var risultati = GestoreRicette.TestaModelloConTrueFalse();
             if (risultati.Count == 0)
             {
-                MessageBox.Show("Nessun risultato disponibile.");
+                MessageBox.Show("Nessuna ricetta prevista come gradita. Prova a dare più feedback positivi alle ricette!");
                 return;
             }
 
             var messaggio = string.Join(Environment.NewLine, risultati);
-            MessageBox.Show(messaggio, "Test del modello");
+            MessageBox.Show(messaggio, "Ricette che potrebbero piacerti");
+
+            // Valutazione del modello
             string risultato = GestoreRicette.ValutaModello();
             MessageBox.Show(risultato, "Valutazione del modello");
         }

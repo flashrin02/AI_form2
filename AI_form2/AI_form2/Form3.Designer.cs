@@ -41,16 +41,18 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxSpinner).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(332, 32);
+            label1.Font = new Font("Cooper Black", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Sienna;
+            label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(71, 23);
+            label1.Size = new Size(454, 75);
             label1.TabIndex = 3;
             label1.Text = "label1";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -58,7 +60,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(60, 137);
+            label2.Location = new Point(3, 75);
             label2.Name = "label2";
             label2.Size = new Size(50, 20);
             label2.TabIndex = 4;
@@ -67,7 +69,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(60, 183);
+            label3.Location = new Point(3, 149);
             label3.Name = "label3";
             label3.Size = new Size(50, 20);
             label3.TabIndex = 5;
@@ -77,7 +79,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point, 0);
-            label4.Location = new Point(60, 226);
+            label4.Location = new Point(3, 219);
             label4.Name = "label4";
             label4.Size = new Size(50, 20);
             label4.TabIndex = 6;
@@ -132,14 +134,18 @@
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Location = new Point(246, 137);
+            tableLayoutPanel1.Controls.Add(label3, 0, 2);
+            tableLayoutPanel1.Controls.Add(label4, 0, 3);
+            tableLayoutPanel1.Controls.Add(label2, 0, 1);
+            tableLayoutPanel1.Controls.Add(label1, 0, 0);
+            tableLayoutPanel1.Location = new Point(184, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(250, 125);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50.6172829F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 49.3827171F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 70F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 36F));
+            tableLayoutPanel1.Size = new Size(460, 256);
             tableLayoutPanel1.TabIndex = 19;
             // 
             // Form3
@@ -150,18 +156,16 @@
             ClientSize = new Size(800, 450);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBoxSpinner);
-            Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox4);
             Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
             Name = "Form3";
             Text = "s";
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxSpinner).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
