@@ -152,32 +152,18 @@ namespace AI_form2
 
         private static void DividiDataset()
         {
-        //    if (Ricette.Count == 0)
-        //    {
-        //        return;
-        //    }
-
-            //    //Carica gli oggetti RicettaInput, ottenuti trasformando CRicetta in RicettaInput, in IDataView
-            //    IDataView fullData = mlContext.Data.LoadFromEnumerable(Ricette.Select(CreaInputDaRicetta));
-
-            //    //Divisione in training set e test set 
-            //    var splitData = mlContext.Data.TrainTestSplit(fullData, testFraction: 0.2, seed: 123);
-
-            //    //Converte i DataView (TrainSet e TestSet) in liste di oggetti RicettaInput
-            //    TrainingSet = mlContext.Data.CreateEnumerable<RicettaInput>(splitData.TrainSet, reuseRowObject: false).ToList();
-            //    TestSet = mlContext.Data.CreateEnumerable<RicettaInput>(splitData.TestSet, reuseRowObject: false).ToList();
-
-            //fatto da alessio per cercare di sistemare....
             if (Ricette.Count == 0)
             {
                 return;
             }
 
-            // Crea un dataset separato solo per il testing, senza toccare il TrainingSet delle preferenze
+            //Carica gli oggetti RicettaInput, ottenuti trasformando CRicetta in RicettaInput, in IDataView
             IDataView fullData = mlContext.Data.LoadFromEnumerable(Ricette.Select(CreaInputDaRicetta));
+
+            //Divisione in training set e test set 
             var splitData = mlContext.Data.TrainTestSplit(fullData, testFraction: 0.2, seed: 123);
 
-            // Solo il TestSet viene aggiornato, il TrainingSet rimane con le preferenze utente
+            //Converte il TestSet in lista di oggetti RicettaInput
             TestSet = mlContext.Data.CreateEnumerable<RicettaInput>(splitData.TestSet, reuseRowObject: false).ToList();
         }
 
@@ -223,16 +209,19 @@ namespace AI_form2
             return new RicettaInput(r.ID, r.ingredients.Count, r.directions.Count, ingredientiVector, false);
         }
 
-        public static List<(CRicetta ricetta, int score, bool suggerita)> TrovaRicette(List<string> ingredienti)
+        public static List<(CRicetta ricetta, int score, bool suggerita, float probabilita)> TrovaRicette(List<string> ingredienti)
         {
             var ricette = RicetteConsigliate(ingredienti);
 
-            List<(CRicetta, int, bool)> result = new();
+            List<(CRicetta, int, bool, float)> result = new();
             foreach (var r in ricette)
             {
+                RicettaInput input = CreaInputDaRicetta(r);
+                RicettaPrediction prediction = PredictionEngine.Predict(input);
                 int score = ContaIngredientiComuni(r.ner, ingredienti);
                 bool suggerita = RicettaSuggerita(r);
-                result.Add((r, score, suggerita));
+                float probabilita = prediction.probability;
+                result.Add((r, score, suggerita, probabilita));
             }
             //Ordinamento
             for (int i = 0; i < result.Count - 1; i++)
@@ -262,63 +251,6 @@ namespace AI_form2
         }
 
         //Restituisce 10 ricette consigliate e ricercate
-        //public static List<CRicetta> RicetteConsigliate(List<string> ingredientiDisponibili)
-        //{
-        //    HashSet<string> disponibiliSet = new();
-        //    foreach (string i in ingredientiDisponibili)
-        //    {
-        //        disponibiliSet.Add(i.Trim().ToLower());
-        //    }
-
-        //    List<CRicetta> ricetteCompatibili = new();
-
-        //    //Filtra ricette che contengono almeno un ingrediente disponibile
-        //    foreach (RicettaInput input in TrainingSet)
-        //    {
-        //        //Trova la ricetta corrispondente nel dataset originale
-        //        CRicetta r = Ricette.Find(x => x.ID == input.ID);
-        //        if (r == null)
-        //            continue;
-
-        //        foreach (string ingrediente in r.ner)
-        //        {
-        //            string ing = ingrediente.Trim().ToLower();
-        //            if (disponibiliSet.Contains(ing))
-        //            {
-        //                ricetteCompatibili.Add(r);
-        //                break;
-        //            }
-        //        }
-        //    }
-
-        //    //Ordina per numero di ingredienti in comune (decrescente)
-        //    for (int i = 0; i < ricetteCompatibili.Count - 1; i++)
-        //    {
-        //        for (int j = i + 1; j < ricetteCompatibili.Count; j++)
-        //        {
-        //            int countI = ContaIngredientiComuni(ricetteCompatibili[i].ner, ingredientiDisponibili);
-        //            int countJ = ContaIngredientiComuni(ricetteCompatibili[j].ner, ingredientiDisponibili);
-        //            if (countJ > countI)
-        //            {
-        //                CRicetta temp = ricetteCompatibili[i];
-        //                ricetteCompatibili[i] = ricetteCompatibili[j];
-        //                ricetteCompatibili[j] = temp;
-        //            }
-        //        }
-        //    }
-
-        //    //Restituisce al massimo 10 ricette
-        //    List<CRicetta> risultato = new();
-        //    int limite = ricetteCompatibili.Count < 10 ? ricetteCompatibili.Count : 10;
-        //    for (int k = 0; k < limite; k++)
-        //    {
-        //        risultato.Add(ricetteCompatibili[k]);
-        //    }
-
-        //    return risultato;
-        //}
-
-        //alessio per cercare di sistemare...
         public static List<CRicetta> RicetteConsigliate(List<string> ingredientiDisponibili)
         {
             HashSet<string> disponibiliSet = new();
@@ -327,23 +259,34 @@ namespace AI_form2
                 disponibiliSet.Add(i.Trim().ToLower());
             }
 
+            //Crea un set con gli ID delle ricette nel TestSet
+            HashSet<int> testSetIds = new();
+            foreach (RicettaInput r in TestSet)
+            {
+                testSetIds.Add(r.ID);
+            }
+
             List<CRicetta> ricetteCompatibili = new();
 
-            // Cerca in TUTTE le ricette, non solo nel TrainingSet
-            foreach (CRicetta r in Ricette)
+            //Filtra ricette che contengono almeno un ingrediente disponibile
+            foreach (CRicetta input in Ricette)
             {
-                foreach (string ingrediente in r.ner)
+                //Escludi le ricette nel TestSet
+                if (testSetIds.Contains(input.ID))
+                    continue;
+
+                foreach (string ingrediente in input.ner)
                 {
                     string ing = ingrediente.Trim().ToLower();
                     if (disponibiliSet.Contains(ing))
                     {
-                        ricetteCompatibili.Add(r);
+                        ricetteCompatibili.Add(input);
                         break;
                     }
                 }
             }
 
-            // Ordina per numero di ingredienti in comune (decrescente)
+            //Ordina per numero di ingredienti in comune (decrescente)
             for (int i = 0; i < ricetteCompatibili.Count - 1; i++)
             {
                 for (int j = i + 1; j < ricetteCompatibili.Count; j++)
@@ -359,7 +302,7 @@ namespace AI_form2
                 }
             }
 
-            // Restituisce al massimo 10 ricette
+            //Restituisce al massimo 10 ricette
             List<CRicetta> risultato = new();
             int limite = ricetteCompatibili.Count < 10 ? ricetteCompatibili.Count : 10;
             for (int k = 0; k < limite; k++)
@@ -458,7 +401,7 @@ namespace AI_form2
                 CRicetta ricettaAssociata = null;
                 foreach (var r in Ricette)
                 {
-                    if (r.ID == input.ID)  // confronta gli ID
+                    if (r.ID == input.ID)  //Confronta gli ID
                     {
                         ricettaAssociata = r;
                         break;
@@ -485,7 +428,7 @@ namespace AI_form2
                 return "Il test set è vuoto";
             }
 
-            // Debug: controlla il training set
+            //Debug: controlla il training set
             int feedbackPositivi = TrainingSet.Count(t => t.Label == true);
             int feedbackNegativi = TrainingSet.Count(t => t.Label == false);
 
@@ -493,7 +436,7 @@ namespace AI_form2
             debug += $"Feedback positivi: {feedbackPositivi}\n";
             debug += $"Feedback negativi: {feedbackNegativi}\n\n";
 
-            IDataView testDataView = mlContext.Data.LoadFromEnumerable(TestSet.Take(10)); // Prendi solo le prime 10 per test
+            IDataView testDataView = mlContext.Data.LoadFromEnumerable(TestSet.Take(10)); //Prende solo le prime 10 per test
             var predictions = Modello.Transform(testDataView);
             var predictedResults = mlContext.Data.CreateEnumerable<RicettaPrediction>(predictions, reuseRowObject: false).ToList();
 
